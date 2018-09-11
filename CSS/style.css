@@ -1,0 +1,121 @@
+/* Global */
+* {
+            /* #6 use roboto font*/
+            font-family: 'Roboto', 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+body {
+            /* #2 #colorful #background */
+            background-color: #F5F5F5;
+        }
+
+
+/* button and w3w location in uppercase*/
+button, strong {
+    text-transform: uppercase;
+}
+
+/* App bar*/
+h1 {
+    
+            background-color: #3F51B5;
+            color: white;
+    }
+
+
+
+/* Channels list */
+ul {
+
+    background-color: white;
+
+    /* bullet points removed by this */
+    list-style-type: none;
+
+
+
+}
+li{
+          /* channel list tiles */
+            background: white;
+            height: 48px;
+            padding: 16px;
+            font-size: 16px;
+            /* light grey lines to separate the tiles of each channels */
+            border: 1px solid #F5F5F5;
+            box-sizing: border-box;
+        }
+/* Current channel is highlighted */
+li.selected{
+    border-left: 4px solid #3F51B5;
+    color:#3F51B5;
+}
+
+li img {
+    vertical-align: middle;
+}
+
+
+
+/* Tab bar */
+#tab-bar {
+    /* container with white background color */
+    background-color: white;
+    /* buttons centered in containers */
+    text-align: center;
+    
+}
+#tab-bar button{
+    text-transform: uppercase;
+    background-color: white;
+    border-style: none;    
+    font-size: 13px;
+    width: 33%; /* button distributed equally. with of 1/3 the whole avaibalbe space*/
+    height: 72px;   /*button height*/
+    padding:16px;
+}
+#tab-bar button img{
+    display: block;
+    margin:0 auto 4px auto;
+}
+/* Tab "New " is highlighted*/
+#tab-bar button.selected{
+    color:#3F51B5;
+    border-bottom: 4px solid #3F51B5;
+}
+
+
+/* Messages */
+
+.message {
+    
+    width:80%;
+    margin-bottom: 8px;
+    /* all messages are aligned aligned  */
+    margin-left: 2.5%;
+    
+}
+.message h3 a{
+    color:black;
+}
+
+.message h3{
+    font-size: medium;
+}
+.message p{
+    background-color: white;
+    padding: 16px;
+}
+.message button{
+    background-color: #CDDC39;
+    color: black;
+    text-transform: uppercase;   
+}
+.message h3 em{
+    font-size: larger;
+    font-style: normal;
+}
+.message.message0 {
+    margin-left:17.5%;
+}
